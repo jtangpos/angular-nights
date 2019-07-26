@@ -25,4 +25,5 @@ export class JsonPlaceholderService {
   deletePost(id) {
     return this.http.delete(this.url + '/' + id);
   }
+
 }
